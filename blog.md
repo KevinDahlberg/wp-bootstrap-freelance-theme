@@ -69,4 +69,11 @@ first big problem, trying to make the scripts and styles go in the functions fol
 
 - [ ] add post and page types to project (doesn't hurt to have...)
 - [ ] properly source scripts and styles
-- [ ] research the standard way for file structure and naming stuff for wordpress. 
+- [ ] research the standard way for file structure and naming stuff for wordpress.
+
+10:00 pm - doing a little coding before crashing.
+
+by the way.  we are working in php... so you need some of these
+''''<?php
+
+i'm feeling a little sourcing coming on... 
