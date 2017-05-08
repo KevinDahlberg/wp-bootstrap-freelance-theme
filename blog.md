@@ -15,7 +15,9 @@ Day 1.  I started working through a sample project from the web last week, and I
 
 Started up, and spent most of an hour just getting myself back into the WP world (I've spent the last 2 weeks buried in my solo project).  Had to remember how to start up my wordpress website on my localhost (make sure you start PHP in the right directory!).  I got the code downloaded, and put in all the right spots, and then... nothing worked.  I had a lot of text, but nothing cool.  Then I found a bit of code from the starter project:
 
-'''<?php echo get_bloginfo('template_directory'); ?>
+'''PHP
+<?php echo get_bloginfo('template_directory'); ?>
+'''
 
 that guy allowed me to source all of my css and jquery (yes, I have to use F-ing jquery.), and JS of course.  It's a little weird to me sourcing jQUery at the bottom of the page, but I guess it's "faster" (the verdict is out on that, but hey, who am I to judge...).
 
@@ -83,4 +85,12 @@ ok.  the sourcing is kinda working.  I lost the cool navbar-collapse feature, th
 - [ ] add post and page types to project (doesn't hurt to have...)
 - [ ] source fonts
 - [ ] research the standard way for file structure and naming stuff for wordpress.
-- [ ] fix navbar-collapse
+- [x] fix navbar-collapse
+
+i had to make sure the js was loading in a particular order, which it wasn't.
+
+after it's sourced, you need to put:
+''' JavaScript
+array (), version, true);
+'''
+that gets it to show up on the bottom on the page.
