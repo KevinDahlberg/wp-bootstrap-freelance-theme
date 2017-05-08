@@ -67,13 +67,20 @@ first big problem, trying to make the scripts and styles go in the functions fol
 
 3:58 - I'll give myself 2 hours on this, start time was a little weird. 2 / 2 / 2
 
-- [ ] add post and page types to project (doesn't hurt to have...)
-- [ ] properly source scripts and styles
-- [ ] research the standard way for file structure and naming stuff for wordpress.
+- [x] properly source scripts and styles
+
 
 10:00 pm - doing a little coding before crashing.
 
 by the way.  we are working in php... so you need some of these
 ''''<?php
 
-i'm feeling a little sourcing coming on... 
+i'm feeling a little sourcing coming on...
+
+ok.  the sourcing is kinda working.  I lost the cool navbar-collapse feature, though, which is kinda dissapointing.
+
+
+- [ ] add post and page types to project (doesn't hurt to have...)
+- [ ] source fonts
+- [ ] research the standard way for file structure and naming stuff for wordpress.
+- [ ] fix navbar-collapse
