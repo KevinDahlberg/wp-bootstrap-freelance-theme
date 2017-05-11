@@ -15,7 +15,7 @@ Day 1.  I started working through a sample project from the web last week, and I
 
 Started up, and spent most of an hour just getting myself back into the WP world (I've spent the last 2 weeks buried in my solo project).  Had to remember how to start up my wordpress website on my localhost (make sure you start PHP in the right directory!).  I got the code downloaded, and put in all the right spots, and then... nothing worked.  I had a lot of text, but nothing cool.  Then I found a bit of code from the starter project:
 
-``` PHP
+``` php
 <?php echo get_bloginfo('template_directory'); ?>
 ```
 
