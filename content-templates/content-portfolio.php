@@ -17,9 +17,10 @@
       }
 
       $post_num++;
+
       get_template_part('content-templates/home', 'portfolio-content');
 
-      if($post_num == 2) {
+      if($post_num == 3) {
         echo '</div>';
         $post_num = 0;
       }

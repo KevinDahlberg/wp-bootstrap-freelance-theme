@@ -96,3 +96,5 @@ after it's sourced, you need to put:
 array (), version, true);
 ```
 that gets it to show up on the bottom on the page.
+
+added google fonts.  Things are looking a lot like they are supposed to.  Lots of stuff left to figure out, though.
