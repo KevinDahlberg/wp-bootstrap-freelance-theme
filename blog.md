@@ -85,7 +85,7 @@ ok.  the sourcing is kinda working.  I lost the cool navbar-collapse feature, th
 
 
 - [ ] add post and page types to project (doesn't hurt to have...)
-- [ ] source fonts
+- [x] source fonts
 - [ ] research the standard way for file structure and naming stuff for wordpress.
 - [x] fix navbar-collapse
 
@@ -97,4 +97,17 @@ array (), version, true);
 ```
 that gets it to show up on the bottom on the page.
 
-added google fonts.  Things are looking a lot like they are supposed to.  Lots of stuff left to figure out, though.
+a lot has happened since I last updated this.
+
+I worked on changing the color theme.  not sure if I am happy with it, but it'll work for now.  I'd like to dynamically populate the portfolio portion and the about portion.  That's been taking a bit of thinking.  I've found out I can just get posts by category (or anything that might be attached to the post really).  I think I'm going to do that, and then find a way to limit it to 6 or something (that may be a future thing.  right now I know that I am limited to 6.)  My goal for tomorrow (5/13) is to get all of that figured out and have my portfolio theme deployed by bed time tomorrow.  That way I can have that thing out of my way going out of the weekend.  Using custom fields I can alter the meta data.  This is going to help when I create my plugin for handling posting shows.  I should also look into how the YTB website handles certain things (i should also just look at that website and fix a few things on it).  
+
+Got the modals to do everything that I want it to do.  This is definitely worth a blog post.  there isn't much out there describing exactly what I am trying to do... or maybe I just suck at searching for it.
+
+instead of a contact-ma page, I need to beef up the relevant parts of the resume... I would still like to include some sort of form of contact, but maybe just an e-mail address...
+
+Things to say:
+Wordpress work, languages I work with, PRIME, technology I have experience with,  SPA, Responsive Web Design,
+
+I also need to write my About and change the tagline in the header.
+
+the UI on the modals needs to get changed as well.  image on left, text on right.  a nice 2 column design.  It'd be nice if I could get it to look awesome without having to do all the custom tags

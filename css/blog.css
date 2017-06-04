@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+
+
+
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -66,10 +71,25 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+
 header {
   text-align: center;
   background: #a2e3c4;
   color: white;
+}
+
+/*header {
+  text-align: center;
+  background: #a2e3c4;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width:100%;*/
+  /*z-index: 1;
+  height: 88%;
+  overflow: hidden;
+  top: 0;
+  left: 0;*/
 }
 header .container {
   padding-top: 100px;
@@ -192,6 +212,20 @@ section.success {
     padding-top: 75px;
   }
 }
+
+/*.content-wrapper{
+    background-color: white;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;
+}*/
+
+/*.modal-wrapper {
+  z-index: 3;
+}*/
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
