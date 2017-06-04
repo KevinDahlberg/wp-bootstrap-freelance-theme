@@ -5,3 +5,8 @@ Description: Bootstrap Blog template converted to WordPress
 Version: 0.0.1
 Tags: bootstrap
 */
+
+.image-container {
+  max-width: 100%;
+  overflow: hidden;
+}

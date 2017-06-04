@@ -15,7 +15,9 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
-          <?php the_post_thumbnail('medium_large'); ?>
+          <div class="image-container">
+          <?php the_post_thumbnail('medium_large', ['class' => 'img-responsive']); ?>
+        </div>
         </div>
         <div class="col-lg-6">
           <?php echo get_post_meta($post->ID, 'source-code', true); ?>
