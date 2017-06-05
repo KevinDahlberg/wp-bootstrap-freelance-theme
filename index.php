@@ -12,7 +12,5 @@ endwhile; endif;
 ?>
 <?php get_template_part('content-templates/content', 'about'); ?>
 
-<?php get_template_part('content-templates/content', 'contact'); ?>
-
 <?php get_footer(); ?>
 </div>
