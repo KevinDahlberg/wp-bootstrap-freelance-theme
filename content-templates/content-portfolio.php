@@ -11,7 +11,7 @@
     $post_num = 0;
     if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-    if ( in_category ( 'Portfolio') ) :
+    if ( in_category ( 'portfolio') ) :
       if($post_num == 0) {
         echo '<div class="row">';
       }

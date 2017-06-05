@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
+      <div class="col-md-8 col-lg-offset-2">
         <?php
         $content = apply_filters('the_content', $post->post_content);
         echo $content;
