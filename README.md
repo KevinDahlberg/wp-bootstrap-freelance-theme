@@ -1,6 +1,8 @@
 # wp-bootstrap-freelance-theme
 Wordpress Theme Based on the Bootstrap Freelance Theme.  This is my second attempt at creating a theme with Wordpress.  This particular theme is more complicated, because it involves using bootstrap modals and displaying content over multiple columns.
 
+* Theme can be viewed in action at: http://www.kevindahlberg.com (6/5/2017)
+
 ## Setup
 
 Download .zip and install in your Wordpress theme dashboard
